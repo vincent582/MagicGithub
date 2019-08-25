@@ -572,8 +572,8 @@ jQuery.cookie = function(name, value, options) {
 <body>
 <div id="container">
 <div id="header">
-<div class="time" xmlns="">1.50 s</div>
-<h1>UserListInstrumented...: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">6 total, </span><span class="error">6 error</span></strong>
+<div class="time" xmlns="">994 ms</div>
+<h1>UserListInstrumented...: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">1 total, </span><span class="error">1 error</span></strong>
 </h1>
 <div id="treecontrol">
 <ul>
@@ -589,68 +589,18 @@ jQuery.cookie = function(name, value, options) {
 </div>
 <div id="content">
 <ul id="tree">
-<li xmlns="" class="level top failed open">
+<li xmlns="" class="level top ignored open">
 <span><em class="time">
-<div class="time">1.50 s</div>
+<div class="time">994 ms</div>
 </em>com.openclassrooms.magicgithub.UserListInstrumentedTest</span>
 <ul>
 <li class="level test failed open">
 <span><em class="time">
-<div class="time">438 ms</div>
+<div class="time">994 ms</div>
 </em><em class="status">error</em>checkIfRemovingUserIsWorking</span>
 <ul>
 <li class="text">
-<span class="stderr">java.lang.NullPointerException: Attempt to invoke interface method &#39;int java.util.List.size()&#39; on a null object reference<br/>at com.openclassrooms.magicgithub.utils.UserDiffCallback.getNewListSize(UserDiffCallback.java:25)<br/>at androidx.recyclerview.widget.DiffUtil.calculateDiff(DiffUtil.java:124)<br/>at androidx.recyclerview.widget.DiffUtil.calculateDiff(DiffUtil.java:105)<br/>at com.openclassrooms.magicgithub.ui.user_list.UserListAdapter.updateList(UserListAdapter.java:53)<br/>at com.openclassrooms.magicgithub.ui.user_list.ListUserActivity.loadData(ListUserActivity.java:56)<br/>at com.openclassrooms.magicgithub.ui.user_list.ListUserActivity.onResume(ListUserActivity.java:36)<br/>at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1413)<br/>at androidx.test.runner.MonitoringInstrumentation.callActivityOnResume(MonitoringInstrumentation.java:706)<br/>at android.app.Activity.performResume(Activity.java:7296)<br/>at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3777)<br/>at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3817)<br/>at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:51)<br/>at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:147)<br/>at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)<br/>at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)<br/>at android.os.Handler.dispatchMessage(Handler.java:106)<br/>at android.os.Looper.loop(Looper.java:193)<br/>at android.app.ActivityThread.main(ActivityThread.java:6692)<br/>at java.lang.reflect.Method.invoke(Native Method)<br/>at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)<br/>at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)<br/></span>
-</li>
-</ul>
-</li>
-<li class="level test failed open">
-<span><em class="time">
-<div class="time">468 ms</div>
-</em><em class="status">error</em>checkIfRemovingUserIsWorking</span>
-<ul>
-<li class="text">
-<span class="stderr">java.lang.NullPointerException: Attempt to invoke interface method &#39;int java.util.List.size()&#39; on a null object reference<br/>at com.openclassrooms.magicgithub.UserListInstrumentedTest.setup(UserListInstrumentedTest.java:34)<br/>at java.lang.reflect.Method.invoke(Native Method)<br/>at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br/>at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br/>at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br/>at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)<br/>at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:531)<br/>at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br/>at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br/>at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br/>at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br/>at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:104)<br/>at org.junit.runners.Suite.runChild(Suite.java:128)<br/>at org.junit.runners.Suite.runChild(Suite.java:27)<br/>at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br/>at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br/>at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br/>at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:388)<br/>at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2152)<br/></span>
-</li>
-</ul>
-</li>
-<li class="level test failed open">
-<span><em class="time">
-<div class="time">134 ms</div>
-</em><em class="status">error</em>checkIfAddingRandomUserIsWorking</span>
-<ul>
-<li class="text">
-<span class="stderr">java.lang.NullPointerException: Attempt to invoke interface method &#39;int java.util.List.size()&#39; on a null object reference<br/>at com.openclassrooms.magicgithub.utils.UserDiffCallback.getNewListSize(UserDiffCallback.java:25)<br/>at androidx.recyclerview.widget.DiffUtil.calculateDiff(DiffUtil.java:124)<br/>at androidx.recyclerview.widget.DiffUtil.calculateDiff(DiffUtil.java:105)<br/>at com.openclassrooms.magicgithub.ui.user_list.UserListAdapter.updateList(UserListAdapter.java:53)<br/>at com.openclassrooms.magicgithub.ui.user_list.ListUserActivity.loadData(ListUserActivity.java:56)<br/>at com.openclassrooms.magicgithub.ui.user_list.ListUserActivity.onResume(ListUserActivity.java:36)<br/>at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1413)<br/>at androidx.test.runner.MonitoringInstrumentation.callActivityOnResume(MonitoringInstrumentation.java:706)<br/>at android.app.Activity.performResume(Activity.java:7296)<br/>at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3777)<br/>at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3817)<br/>at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:51)<br/>at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:147)<br/>at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)<br/>at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)<br/>at android.os.Handler.dispatchMessage(Handler.java:106)<br/>at android.os.Looper.loop(Looper.java:193)<br/>at android.app.ActivityThread.main(ActivityThread.java:6692)<br/>at java.lang.reflect.Method.invoke(Native Method)<br/>at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)<br/>at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)<br/></span>
-</li>
-</ul>
-</li>
-<li class="level test failed open">
-<span><em class="time">
-<div class="time">192 ms</div>
-</em><em class="status">error</em>checkIfAddingRandomUserIsWorking</span>
-<ul>
-<li class="text">
-<span class="stderr">java.lang.NullPointerException: Attempt to invoke interface method &#39;int java.util.List.size()&#39; on a null object reference<br/>at com.openclassrooms.magicgithub.UserListInstrumentedTest.setup(UserListInstrumentedTest.java:34)<br/>at java.lang.reflect.Method.invoke(Native Method)<br/>at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br/>at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br/>at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br/>at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)<br/>at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:531)<br/>at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br/>at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br/>at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br/>at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br/>at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:104)<br/>at org.junit.runners.Suite.runChild(Suite.java:128)<br/>at org.junit.runners.Suite.runChild(Suite.java:27)<br/>at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br/>at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br/>at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br/>at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:388)<br/>at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2152)<br/></span>
-</li>
-</ul>
-</li>
-<li class="level test failed open">
-<span><em class="time">
-<div class="time">104 ms</div>
-</em><em class="status">error</em>checkIfRecyclerViewIsNotEmpty</span>
-<ul>
-<li class="text">
-<span class="stderr">java.lang.NullPointerException: Attempt to invoke interface method &#39;int java.util.List.size()&#39; on a null object reference<br/>at com.openclassrooms.magicgithub.utils.UserDiffCallback.getNewListSize(UserDiffCallback.java:25)<br/>at androidx.recyclerview.widget.DiffUtil.calculateDiff(DiffUtil.java:124)<br/>at androidx.recyclerview.widget.DiffUtil.calculateDiff(DiffUtil.java:105)<br/>at com.openclassrooms.magicgithub.ui.user_list.UserListAdapter.updateList(UserListAdapter.java:53)<br/>at com.openclassrooms.magicgithub.ui.user_list.ListUserActivity.loadData(ListUserActivity.java:56)<br/>at com.openclassrooms.magicgithub.ui.user_list.ListUserActivity.onResume(ListUserActivity.java:36)<br/>at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1413)<br/>at androidx.test.runner.MonitoringInstrumentation.callActivityOnResume(MonitoringInstrumentation.java:706)<br/>at android.app.Activity.performResume(Activity.java:7296)<br/>at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3777)<br/>at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3817)<br/>at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:51)<br/>at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:147)<br/>at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:70)<br/>at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1809)<br/>at android.os.Handler.dispatchMessage(Handler.java:106)<br/>at android.os.Looper.loop(Looper.java:193)<br/>at android.app.ActivityThread.main(ActivityThread.java:6692)<br/>at java.lang.reflect.Method.invoke(Native Method)<br/>at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)<br/>at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)<br/></span>
-</li>
-</ul>
-</li>
-<li class="level test failed open">
-<span><em class="time">
-<div class="time">162 ms</div>
-</em><em class="status">error</em>checkIfRecyclerViewIsNotEmpty</span>
-<ul>
-<li class="text">
-<span class="stderr">java.lang.NullPointerException: Attempt to invoke interface method &#39;int java.util.List.size()&#39; on a null object reference<br/>at com.openclassrooms.magicgithub.UserListInstrumentedTest.setup(UserListInstrumentedTest.java:34)<br/>at java.lang.reflect.Method.invoke(Native Method)<br/>at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br/>at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br/>at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br/>at androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:76)<br/>at androidx.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:531)<br/>at org.junit.rules.RunRules.evaluate(RunRules.java:20)<br/>at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br/>at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br/>at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br/>at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>at androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:104)<br/>at org.junit.runners.Suite.runChild(Suite.java:128)<br/>at org.junit.runners.Suite.runChild(Suite.java:27)<br/>at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br/>at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br/>at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br/>at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br/>at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br/>at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br/>at org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br/>at org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br/>at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)<br/>at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:388)<br/>at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2152)<br/></span>
+<span class="stderr">java.lang.NullPointerException: Attempt to invoke interface method &#39;int java.util.List.size()&#39; on a null object reference<br/>at com.openclassrooms.magicgithub.utils.UserDiffCallback.getNewListSize(UserDiffCallback.java:25)<br/>at androidx.recyclerview.widget.DiffUtil.calculateDiff(DiffUtil.java:124)<br/>at androidx.recyclerview.widget.DiffUtil.calculateDiff(DiffUtil.java:105)<br/>at com.openclassrooms.magicgithub.ui.user_list.UserListAdapter.updateList(UserListAdapter.java:53)<br/>at com.openclassrooms.magicgithub.ui.user_list.ListUserActivity.loadData(ListUserActivity.java:56)<br/>at com.openclassrooms.magicgithub.ui.user_list.ListUserActivity.onResume(ListUserActivity.java:36)<br/>at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1355)<br/>at androidx.test.runner.MonitoringInstrumentation.callActivityOnResume(MonitoringInstrumentation.java:706)<br/>at android.app.Activity.performResume(Activity.java:7117)<br/>at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3556)<br/>at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3621)<br/>at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2862)<br/>at android.app.ActivityThread.-wrap11(Unknown Source:0)<br/>at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1589)<br/>at android.os.Handler.dispatchMessage(Handler.java:106)<br/>at android.os.Looper.loop(Looper.java:164)<br/>at android.app.ActivityThread.main(ActivityThread.java:6494)<br/>at java.lang.reflect.Method.invoke(Native Method)<br/>at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)<br/>at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)<br/></span>
 </li>
 </ul>
 </li>
@@ -660,7 +610,7 @@ jQuery.cookie = function(name, value, options) {
 </div>
 </div>
 <div id="footer">
-<p>Generated by Android Studio on 8/7/19 1:39 PM</p>
+<p>Generated by Android Studio on 8/25/19 11:23 AM</p>
 </div>
 </body>
 </html>
